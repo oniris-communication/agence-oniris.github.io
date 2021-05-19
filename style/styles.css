@@ -31,10 +31,12 @@ header{
 .agence{
     text-decoration: none;
     color: black;
-    
 }
 .page{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column ; 
+    justify-content: center;
 }
 
     /*Accueil*/
@@ -59,10 +61,57 @@ h2{
     max-width: 230px;
     min-height: auto;
 }
+/*Services*/
+.nosservices{
+    min-height: 100vh;
+}
+.nom{
+    color: #6496CF;
+}
+.prestations1{
+    background-color:#08262e15 ;
+    margin: 40px;
+    min-height: 200px;
+    max-height: 200px;
+    min-width: 400px;
+    max-height: 400px;
+    text-align: center;
+    padding: 20px;
+}
+.prestations2{
+    background-color:#08262e15 ;
+    margin: 40px;
+    text-align: center;
+    min-height: 250px;
+    max-height: 250px;
+    min-width: 400px;
+    max-height: 400px;
+    padding: 20px;
+}
+.cadre1{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.cadre2{
+    display: flex;
+    
+    justify-content: space-around;
+    align-items: center;
+}
+
+.expo{
+    max-height: 150px;
+    text-align: center;
+}
 
 /*Présentation*/
 .presentation{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column ; 
+    justify-content: center;
 }
 .decoration{
     min-height: 50px;
@@ -119,6 +168,9 @@ h1{
 
 .page1{
     min-height: 100vh;
+    display: flex;
+    flex-direction: column ; 
+    justify-content: center;
 }
 .photo{
     max-height: 250px;
