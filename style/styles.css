@@ -1,0 +1,150 @@
+body{
+    margin: 0px;
+    font-family: 'Comfortaa', cursive;
+}
+
+    /*Header*/
+.logo1{
+    max-width: 50px;
+    max-height: 50px;
+}
+header{
+    max-height: 65px;
+    min-height: 65px;
+    font-size: 25px;
+    background-color: #262626;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    background-color:#FFD489;
+    max-height: 35px;
+    min-height: 35px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+.agence{
+    text-decoration: none;
+    color: black;
+    
+}
+.page{
+    min-height: 100vh;
+}
+
+    /*Accueil*/
+.accueil{
+    /*background-color: #08262e15;*/
+    max-height: 63vh;
+    min-height: 63vh;
+    margin: 60px;
+    display: flex;
+    flex-direction: column ; 
+    justify-content: center;       
+  
+}
+h2{
+    display: flex;
+    justify-content: center;
+    color: #6496CF;
+}
+
+.logo2{
+    max-height: 230px;
+    max-width: 230px;
+    min-height: auto;
+}
+
+/*Présentation*/
+.presentation{
+    min-height: 100vh;
+}
+.decoration{
+    min-height: 50px;
+    max-height: 50px;
+    background-color:#FFD489 ;
+}
+.present{
+     background-color: #08262e15;
+    max-height: auto;
+    min-height: 63vh;
+    margin: 60px;
+    display: flex;
+    flex-direction: column ; 
+    justify-content: center;
+}
+.exemple{
+    max-height: 180px;
+}
+.images{
+    display: flex;
+    justify-content: center;
+}
+.titre{
+    /*display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;*/
+    text-align: center;
+}
+.texte{
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+}   
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+}
+
+    /*Notre agence*/
+.description{
+    color: black;
+    background-color: #08262e15;
+    font-size: 15pt;
+    min-height: 70vh;
+    margin: 60px;
+    padding: 20px;
+    text-align: center;
+    display: flex; 
+    flex-direction: column;
+     justify-content: center;
+}
+
+.page1{
+    min-height: 100vh;
+}
+.photo{
+    max-height: 250px;
+    min-height: auto;
+    margin: 15px;
+}
+.espace{
+    margin: 20px;
+}
+.l-agence{
+    color: #6496CF;
+}
+.nom{
+    font-size: 35pt;
+    position: static; 
+}
+.filet{
+    border-bottom : 20px solid #FFD489;
+    border-radius: 10px;
+    max-width: 915px;
+    left: 600px;
+    position: static;
+}
+.membres{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
