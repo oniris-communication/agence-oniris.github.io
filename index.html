@@ -13,7 +13,7 @@
     <!---------------->
    <!-- Barre de menu-->
    <!------------------->
-    <header>
+    <header id=haut>
         <a href="#presentation">
             <img class=logo1 src="img/logo_détouré.png">
         </a>
@@ -23,9 +23,9 @@
     <div class=vide></div>
 
     <div class=menu>
-        <div class=services>
+        <a href="#services" class=services>
             Services
-        </div>
+        </a>
         <a class=agence href ="#agence">Notre agence</a>
         <div class=contact>
             Contact
@@ -69,6 +69,13 @@
         </div>
     </main>
 
+    <!------------------->
+    <!-- Retour en haut-->
+    <!------------------->
+    <a href="#haut" class=retour>
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6M5 12l7-7 7 7"/></svg>
+    </a>
+
     <!---------------->
     <!-- Services-->
     <!---------------->
@@ -76,6 +83,7 @@
         <h1 class=nom>
               Nos services
         </h1>
+        <div class=deco></div>
         <div class=cadre>
             <div class=cadre1>
                 <div class=prestations1>
@@ -180,6 +188,9 @@
             </div>
            
         </div>
+    </main>
+    <main id=contact class=contacter>
+        
     </main>
 </body>
 </html>
