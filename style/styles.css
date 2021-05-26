@@ -39,22 +39,23 @@ header{
     text-decoration: none;
     color: black;
 }
-.page{
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column ; 
-    justify-content: center;
+.contact{
+    text-decoration: none;
+    color: black;
 }
 
     /*Accueil*/
+.page{
+    min-height: 100vh;
+}   
 .accueil{
     /*background-color: #08262e15;*/
     max-height: 63vh;
     min-height: 63vh;
     margin: 60px;
     display: flex;
-    flex-direction: column ; 
-    justify-content: center;       
+    justify-content: center;     
+    align-items: center;
   
 }
 h2{
@@ -62,12 +63,31 @@ h2{
     justify-content: center;
     color: #6496CF;
 }
+.oniris{
+    font-size: 45pt;
+}
+.slogan{
+    font-size: xx-large;
+}
 
 .logo2{
-    max-height: 230px;
-    max-width: 230px;
+    max-height: 250px;
+    max-width: 250px;
     min-height: auto;
 }
+.bouton{
+    text-decoration: none;
+    color: white;
+    font-size: x-large;
+    background-color: #6496CF;
+    padding: 15px;
+    margin: 90px;
+    border-radius: 40px;
+    width: 210px;
+    display: flex;
+    justify-content: center;
+}
+
 
 /*Présentation*/
 .presentation{
@@ -86,6 +106,7 @@ h2{
     max-height: auto;
     min-height: 63vh;
     margin: 60px;
+    border-radius: 15px;
     display: flex;
     flex-direction: column ; 
     justify-content: center;
@@ -109,11 +130,7 @@ h2{
     justify-content: center;
     font-size: 15pt;
 }   
-h1{
-    display: flex;
-    justify-content: center;
-    font-size: xx-large;
-}
+
 .retour{
     display: flex;
     justify-content: center;
@@ -135,6 +152,9 @@ h1{
     justify-content: center; 
 }
 .nom{
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
     color: #6496CF;
 }
 .deco{
@@ -149,6 +169,7 @@ h1{
 .prestations1{
     background-color:#08262e15 ;
     margin: 40px;
+    border-radius: 15px;
     min-height: 200px;
     max-height: 200px;
     min-width: 400px;
@@ -159,6 +180,7 @@ h1{
 .prestations2{
     background-color:#08262e15 ;
     margin: 40px;
+    border-radius: 15px;
     text-align: center;
     min-height: 250px;
     max-height: 250px;
@@ -200,6 +222,7 @@ h1{
     min-height: 70vh;
     margin: 60px;
     padding: 20px;
+    border-radius: 15px;
     text-align: center;
     display: flex; 
     flex-direction: column;
@@ -239,4 +262,36 @@ h1{
     justify-content: center;
     justify-content: space-around;
 }
+
+    /* Contact*/
+.contacter{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.coordonnées{
+    background-color: #08262e15;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 15px;
+}
+.nom2{
+    color: #6496CF;
+    font-size: xx-large;
+}
+.adresse{
+    margin-top: 10px;
+    font-size: large;
+}
+.mail{
+    margin-top: 10px;
+    font-size: large;
+}
+.tel{
+    margin-top: 10px;
+    font-size: large;
+}
+
+
 
