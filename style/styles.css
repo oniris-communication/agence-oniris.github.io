@@ -157,23 +157,21 @@ h2{
     font-size: xx-large;
     color: #6496CF;
 }
+.flexFilet1{
+    display: flex;
+    justify-content: flex-end;
+}
 .deco{
+    width: 65%;
     height: 15px;
     background-color: #FFD489;
-    min-width:950px ;
-    margin-right: 0px;
-    margin-left: 550px;
-    border-radius: 10px;
-    margin-bottom: 20px;
+    border-radius: 10px 0 0 10px;
+
 }
 .prestations1{
     background-color:#08262e15 ;
     margin: 40px;
     border-radius: 15px;
-    min-height: 200px;
-    max-height: 200px;
-    min-width: 400px;
-    max-height: 400px;
     text-align: center;
     padding: 20px;
 }
@@ -182,10 +180,6 @@ h2{
     margin: 40px;
     border-radius: 15px;
     text-align: center;
-    min-height: 250px;
-    max-height: 250px;
-    min-width: 400px;
-    max-height: 400px;
     padding: 20px;
 }
 .cadre1{
@@ -219,14 +213,13 @@ h2{
     color: black;
     background-color: #08262e15;
     font-size: 15pt;
-    min-height: 70vh;
     margin: 60px;
     padding: 20px;
     border-radius: 15px;
     text-align: center;
     display: flex; 
     flex-direction: column;
-     justify-content: center;
+    justify-content: center;
 }
 
 .page1{
@@ -237,7 +230,6 @@ h2{
 }
 .photo{
     max-height: 250px;
-    min-height: auto;
     margin: 15px;
 }
 .espace{
@@ -250,14 +242,17 @@ h2{
     font-size: 35pt;
     position: static; 
 }
+
 .filet{
     border-bottom : 15px solid #FFD489;
-    border-radius:10px;
-    max-width: 915px;
-    left: 600px;
-    position: static;
+    border-radius:0 10px 10px 0 ;
+    width: 65%;
 }
 .membres{
+    font-size: large;
+    width: 100%;
+    margin-top: 30px;
+    display: block;
     display: flex;
     justify-content: center;
     justify-content: space-around;
