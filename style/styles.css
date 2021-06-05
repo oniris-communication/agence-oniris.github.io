@@ -23,7 +23,7 @@ header{
 }
 
 .menu{
-    background-color:#FFD489;
+    background-color:#FDD3A0;
     max-height: 35px;
     min-height: 35px;
     display: flex;
@@ -99,7 +99,7 @@ h2{
 .decoration{
     min-height: 50px;
     max-height: 50px;
-    background-color:#FFD489 ;
+    background-color:#FDD3A0 ;
 }
 .present{
      background-color: #08262e15;
@@ -136,7 +136,7 @@ h2{
     justify-content: center;
     align-items: center;
     border-radius: 40px;
-    background-color: #FFD489;
+    background-color: #FDD3A0;
     height: 40px;
     width: 40px;
     position: fixed;
@@ -147,9 +147,7 @@ h2{
 /*Services*/
 .nosservices{
     min-height: 100vh;
-    display: flex;
-    flex-direction: column ; 
-    justify-content: center; 
+    margin-top: 50px;
 }
 .nom{
     display: flex;
@@ -164,12 +162,13 @@ h2{
 .deco{
     width: 65%;
     height: 15px;
-    background-color: #FFD489;
+    background-color: #FDD3A0;
     border-radius: 10px 0 0 10px;
 
 }
 .prestations1{
     background-color:#08262e15 ;
+    width: 70%;
     margin: 40px;
     border-radius: 15px;
     text-align: center;
@@ -177,10 +176,27 @@ h2{
 }
 .prestations2{
     background-color:#08262e15 ;
+    width: 50%;
     margin: 40px;
     border-radius: 15px;
     text-align: center;
     padding: 20px;
+}
+.prestations3{
+    background-color:#08262e15 ;
+    margin: 40px;
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 20px;
+}
+.prestations4{
+    margin: 40px;
+    background-color:#08262e15 ;
+    width: 70%;
+    border-radius: 15px;
+    text-align: center;
+    padding: 30px;
 }
 .cadre1{
     display: flex;
@@ -244,7 +260,7 @@ h2{
 }
 
 .filet{
-    border-bottom : 15px solid #FFD489;
+    border-bottom : 15px solid #FDD3A0;
     border-radius:0 10px 10px 0 ;
     width: 65%;
 }
@@ -260,13 +276,19 @@ h2{
 
     /* Contact*/
 .contacter{
-    min-height: 100vh;
-    display: flex;
+    min-height: 80vh;
+    /*display: flex;
     flex-direction: column;
+    justify-content: center;*/
+}
+.ensemble{
+    display: flex;
     justify-content: center;
+    align-items: center;
 }
 .coordonnées{
     background-color: #08262e15;
+    width: 30%;
     margin: 60px;
     padding: 20px;
     border-radius: 15px;
@@ -286,6 +308,49 @@ h2{
 .tel{
     margin-top: 10px;
     font-size: large;
+}
+.reseaux{
+    background-color: #08262e15;
+    width: 70%;
+    margin: 60px;
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.insta{
+    max-height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+    
+}
+.twit{
+    max-height:140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+
+}
+/*footer*/
+footer{
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-around;
+    background-color: #262626;
+}
+.lien{
+    font-size: larger;
+    text-decoration: none;
+    color: #6496CF;
+}
+.footerTexte{
+    font-size: 11pt;
 }
 
 
