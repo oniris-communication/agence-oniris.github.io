@@ -319,6 +319,14 @@ h2{
     align-items: center;
     justify-content: space-around;
 }
+.instagram{
+    display: flex;
+    align-items: center;
+}
+.twitter{
+    display: flex;
+    align-items: center;
+}
 .insta{
     max-height: 160px;
     display: flex;
