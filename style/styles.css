@@ -268,10 +268,13 @@ h2{
     font-size: large;
     width: 100%;
     margin-top: 30px;
-    display: block;
+    flex-wrap: wrap;
     display: flex;
     justify-content: center;
     justify-content: space-around;
+}
+.photo{
+    display: block;
 }
 
     /* Contact*/
