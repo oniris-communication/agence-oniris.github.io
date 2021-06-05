@@ -273,6 +273,9 @@ h2{
     justify-content: center;
     justify-content: space-around;
 }
+h4{
+    font-size:13pt;
+}
 .photo{
     display: block;
 }
@@ -318,6 +321,7 @@ h2{
     margin: 60px;
     padding: 20px;
     border-radius: 15px;
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -331,22 +335,26 @@ h2{
     align-items: center;
 }
 .insta{
+    display: block;
     max-height: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
-
-    
 }
 .twit{
+    display: block;
     max-height:140px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding: 15px;
-
 }
+.nomReseau{
+    text-decoration: none;
+    color: black;
+}
+
 /*footer*/
 footer{
     color: white;
