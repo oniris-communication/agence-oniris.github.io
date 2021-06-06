@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,58 +9,67 @@
     <link rel="stylesheet" href="style/styles.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap" rel="stylesheet">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/logo_détouré.png">
 </head>
+
 <body>
     <!---------------->
-   <!-- Barre de menu-->
-   <!------------------->
-    <header id=haut>
-        <a href="#presentation">
-            <img class=logo1 src="img/logo_détouré.png">
-        </a>
-        ONIRIS
-    </header>
+    <!-- Barre de menu-->
+    <!------------------->
 
-    <div class=vide></div>
-
-    <div class=menu>
-        <a href="#services" class=services>
-            Services
-        </a>
-        <a class=agence href ="#agence">L'agence</a>
-        <a href="#contact" class=contact>
-            Contact
-        </a>
-    </div>
 
     <!---------------->
-     <!-- Accueil-->
-     <!---------------->
-    <main class=page>
-        <div class=accueil>
-           <div class=titre>
-                <img class=logo2 src="img/logo_détouré.png">
-                <div class=oniris>
-                    ONIRIS
-                </div>
-                 <h2 class=slogan>
-                    La communication dont vous rêvez
-                </h2>
+    <!-- Accueil-->
+    <!---------------->
+    <main class=grand>
+        <header id=haut>
+            <div class=logo>
+                <a href="#presentation">
+                    <img class=logo1 src="img/logo_détouré.png">
+                </a>
+                ONIRIS
             </div>
-           
-            <a class=bouton href="#presentation">
-                LANCEZ-VOUS !
-            </a> 
-        </div>
-        
+            <div class=menu>
+                <div class=serv>
+                    <a href="#services" class=services>
+                        Services
+                    </a>
+                </div>
+                <div class=serv>
+                    <a class=agence href="#agence">
+                        L'agence
+                    </a>
+                </div>
+                <div class=serv>
+                    <a href="#contact" class=contact>
+                        Contact
+                    </a>
+                </div>
+
+            </div>
+
+        </header>
+        <main class=page>
+            <div class=accueil>
+                <div class=slogan>
+                    LA COMMUNICATION <br> DONT VOUS RÊVEZ
+                </div>
+                <div class=box>
+                    <a class=bouton href="#presentation">
+                        DÉCOUVREZ-NOUS !
+                    </a>
+                </div>
+            </div>
+        </main>
     </main>
+
+
+
 
     <!---------------->
     <!-- Présentation-->
     <!---------------->
     <main id=presentation class=presentation>
-        <div class=decoration>
-        </div>
         <div class=present>
             <div class=images>
                 <img class=exemple src="img/site3.jpg">
@@ -67,9 +77,10 @@
                 <img class=exemple src="img/flyer2.jpg">
             </div>
             <h2>Vous créez une PME ou une auto-entreprise ?</h2>
-            
+
             <div class=texte>
-                Nous vous aidons à vous lancer en créant votre site internet, vos cartes de visite, flyers et vidéo de présentation.
+                Nous vous aidons à vous lancer en créant votre site internet, vos cartes de visite, flyers et vidéo de
+                présentation.
             </div>
         </div>
     </main>
@@ -78,7 +89,10 @@
     <!-- Retour en haut-->
     <!------------------->
     <a href="#haut" class=retour>
-        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#000000" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"><path d="M12 19V6M5 12l7-7 7 7"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" viewBox="0 0 24 24" fill="none" stroke="#000000"
+            stroke-width="1" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M12 19V6M5 12l7-7 7 7" />
+        </svg>
     </a>
 
     <!---------------->
@@ -86,33 +100,34 @@
     <!---------------->
     <main id=services class=nosservices>
         <h1 class=nom>
-              Nos services
+            Nos services
         </h1>
         <div class=flexFilet1>
             <div class=deco></div>
         </div>
-        
+
         <div class=cadre>
-            <div class=cadre1> 
+            <div class=cadre1>
                 <div class=prestations1>
-                    <img class=expo src="img/site4.jpg">
-                    <div class=produit>
-                        Site internet
-                    </div>
-                    <div class=descri>
-                        Nous vous créons un site ergonomique avec un design simple. Un site efficace est un site simple d'accès. 
-                    </div>
-                </div>
-                <div class=prestations2>
                     <img class=expo src="img/charte graphique.jpg">
                     <div class=produit>
                         Logo, charte graphique
                     </div>
                     <div class=descri>
-                        Nous créons votre logo et la charte graphique de votre entreprise pour vous représenter auprès de vos clients.
+                        Nous créons votre identité pour mieux vous différencier.
+                    </div>
+                </div>
+                <div class=prestations2>
+                    <img class=expo src="img/site4.jpg">
+                    <div class=produit>
+                        Site internet
+                    </div>
+                    <div class=descri>
+                        Nous vous créons un site ergonomique<br> au design épuré.
                     </div>
                 </div>
             </div>
+
             <div class=cadre2>
                 <div class=prestations3>
                     <img class=expo src="img/notre-carte.png">
@@ -120,7 +135,7 @@
                         Flyers, cartes de visite
                     </div>
                     <div class=descri>
-                        Les flyers et les cartes de visites sont les premiers contacts avec les clients. Il faut que les informations soient claires et compréhensibles. C’est la clé d’une communication efficace.
+                        Un moyen simple de communiquer <br>avec vos clients.
                     </div>
                 </div>
                 <div class=prestations4>
@@ -132,7 +147,7 @@
                         Un moyen différent de montrer votre savoir-faire à vos clients.
                     </div>
                 </div>
-            </div>            
+            </div>
         </div>
     </main>
     <!---------------->
@@ -146,48 +161,49 @@
             <div class=flexFilet>
                 <div class=filet></div>
             </div>
-            
+
             <div class=description>
-                Oniris est une jeune agence de communication créée en janvier 2021. Nous sommes à ce jour six employés avec chacun leur spécialité, permettant de vous proposer des prestations haut de gammes.
+                Oniris est une jeune agence de communication créée en janvier 2021. Nous sommes six employés avec chacun
+                leur spécialité, permettant de vous proposer des prestations haut de gamme.
 
                 <div class=membres>
                     <div class=lucy>
-                        <img class=photo src="img/fille1.jpg">
+                        <img class=photo src="img/lucy.jpg">
                         Lucy Gambier
                         <h4 class=redactrice>
                             Chargée de communication
                         </h4>
                     </div>
                     <div class=louis>
-                        <img class=photo src="img/garçon1.jpg">
+                        <img class=photo src="img/louis.jpg">
                         Louis Beaugé
                         <h4 class=directeur>
                             Directeur artistique
                         </h4>
                     </div>
-                    <div class= samuel>
-                        <img class=photo src="img/garçon2.jpg">
+                    <div class=samuel>
+                        <img class=photo src="img/samuel.jpg">
                         Samuel Bensalah
                         <h4 class=graphiste>
                             Graphiste
                         </h4>
                     </div>
                     <div class=laura>
-                        <img class=photo src="img/fille2.jpg">
+                        <img class=photo src="img/laura.jpg">
                         Laura Waltisperger
-                         <h4 class=webdesigner>
+                        <h4 class=webdesigner>
                             Webdesigner
                         </h4>
                     </div>
                     <div class=quentin>
-                         <img class=photo src="img/garçon3.jpg">
+                        <img class=photo src="img/quentin.jpg">
                         Quentin Innocenti
                         <h4 class=redacteur>
                             Rédacteur
                         </h4>
                     </div>
                     <div class=rayyan>
-                         <img class=photo src="img/garçon4.jpg">
+                        <img class=photo src="img/rayyan.jpg">
                         Rayyan Khennaoui
                         <h4 class=vidéaste>
                             Vidéaste
@@ -195,7 +211,7 @@
                     </div>
                 </div>
             </div>
-           
+
         </div>
     </main>
 
@@ -217,8 +233,8 @@
                 <div class=adresse>
                     Adresse : <br>
                     <b>
-                    61 rue Albert Camus <br>
-                    68100 Mulhouse
+                        61 rue Albert Camus <br>
+                        68100 Mulhouse
                     </b>
                 </div>
                 <div class=mail>
@@ -229,19 +245,19 @@
                     Téléphone : <br>
                     <b>07 83 80 79 74</b>
                 </div>
-             </div>
+            </div>
             <div class=reseaux>
                 <div class=instagram>
                     <a href="https://www.instagram.com/oniris.off/"><img class=insta src="img/logo_insta.png"></a>
-                    <a class=nomReseau href="https://www.instagram.com/oniris.off/">@Oniris.Off</a> 
+                    <a class=nomReseau href="https://www.instagram.com/oniris.off/">@Oniris.Off</a>
                 </div>
-                
+
                 <div class=twitter>
                     <a href="https://twitter.com/Oniris_Off"><img class=twit src="img/logo_twitter.png"></a>
                     <a class=nomReseau href="https://twitter.com/Oniris_Off">@Oniris_Off</a>
                 </div>
             </div>
-        </div> 
+        </div>
     </main>
 
     <!----------->
@@ -251,7 +267,7 @@
         <div class=footerAccueil>
             <a class=lien href="#haut">Accueil</a>
         </div>
-        
+
         <div class=footerServices>
             <a class=lien href="#services">Nos services</a>
             <div class=footerTexte>
@@ -279,4 +295,5 @@
         </div>
     </footer>
 </body>
+
 </html>
